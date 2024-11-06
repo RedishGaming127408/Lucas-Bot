@@ -165,10 +165,7 @@ async def main():
         await help()
         await info()
         await load()
-        await bot.start(
-            'token'
-        )
-
+        await bot.start('ODM2NDAzMjUwMzQ5MDgwNjA2.GM-rxn.IoMfgL0p69y5X7uoA0Kod2vNhYGos_BAuCRSfA')
 
 # Run the bot
 
