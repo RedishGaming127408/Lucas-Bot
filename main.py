@@ -1,6 +1,5 @@
 import discord
 import os
-import tkinter as tk
 import asyncio
 import threading
 import logging
@@ -176,7 +175,7 @@ async def main():
         await info()
         await load()
         await bot.start(
-            ''
+            'ODM2NDAzMjUwMzQ5MDgwNjA2.GXRSN6.5RxdpBKBo41wQar-mGMwvhfwJ157afcka7FYM8'
         )
 
 
