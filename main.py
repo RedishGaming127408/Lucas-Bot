@@ -5,15 +5,6 @@ import threading
 import logging
 from dotenv import load_dotenv
 from discord.ext import commands
-from keep_alive import keep_alive
-from datadog import initialize, api
-
-options = {
-    'api_key': '10b7c407fb85bdb51f412e5df03fa3f3',
-    'app_key': '10b7c407fb85bdb51f412e5df03fa3f3'
-}
-
-initialize(**options)
 
 
 # Set up logging
@@ -183,5 +174,4 @@ async def main():
 
 load_dotenv()
 token = os.environ.get("DISCORD_BOT_SECRET")
-keep_alive()
 asyncio.run(main())
