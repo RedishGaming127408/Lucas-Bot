@@ -1,5 +1,4 @@
 aiohttp
 discord
 asyncio
-threading
 dotenv
