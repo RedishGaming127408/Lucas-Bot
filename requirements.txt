@@ -1,7 +1,5 @@
 aiohttp
-discord.py
 discord
-os
 asyncio
 threading
 dotenv
